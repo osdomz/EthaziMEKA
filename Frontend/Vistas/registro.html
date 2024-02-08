@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="myApp">
+
+<head>
+    <link rel="stylesheet" href="../../Frontend/Public/CSS/registro.css">
+    <title>Simulador préstamos - Registro</title>
+</head>
+
+<body ng-controller="LoginController">
+
+    <div class="circles">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+    </div>
+
+    <form ng-submit="registrarse()" class="registro_form row g-2">
+        <h1 class="mb-3">Registro</h1>
+        <p>Crea una cuenta nueva</p>
+
+        <div class="col-md-6">
+
+            <input type="text" ng-model="nombre" class="form-control" id="camponombre" placeholder="Nombre">
+        </div>
+
+        <div class="col-md-6">
+
+            <input type="text" ng-model="apellido" class="form-control" id="campoapellido" placeholder="Apellido">
+        </div>
+
+        <div class="col-md-6">
+
+            <input type="text" ng-model="usuarios" class="form-control" id="campousuarios" placeholder="Usuario">
+        </div>
+
+        <div class="col-md-6">
+
+            <input type="email" ng-model="email" class="form-control" id="campoemail" placeholder="Correo electrónico">
+        </div>
+
+        <div class="col-md-6">
+
+            <input type="password" ng-model="contrasena" class="form-control" id="campocontrasena"
+                placeholder="Contraseña">
+        </div>
+
+        <div class="col-md-6">
+
+            <input type="password" ng-model="validarcontrasena" class="form-control" id="campovalidar"
+                placeholder="Repite la Contraseña">
+        </div>
+
+        <div class="col-md-12">
+            <span class="alert alert-danger" ng-if="mensaje">{{ mensaje }}</span>
+        </div>
+
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-primary" type="submit" ng-click="irAlPerfil()">Registrarse</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-secondary" type="button" ng-click="irAlLogin()">Ir al Login</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

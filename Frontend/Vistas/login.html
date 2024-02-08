@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="myApp">
+<head>
+    <link rel="stylesheet" href="../../Frontend/Public/CSS/login.css">
+    <title>Simulador prestamos - Login</title>
+</head>
+<body ng-controller="LoginController">
+
+    <div class="circles">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+    </div>
+    <form ng-submit="login()" class="login_form">
+        <h1>Bienvenido!</h1>
+        <p>Inicia sesión en tu cuenta</p>
+        <input type="text" ng-model="usuario.correo" id="campousuario" placeholder="Correo electrónico o usuario">
+        <input type="password" ng-model="usuario.contrasena" id="campocontrasena" placeholder="Contraseña">
+        <span class="alert alert-danger" ng-if="mensaje">{{ mensaje }}</span>
+        <div class="row d-flex flex-row gap-2">
+            <button class="col" type="submit">Login</button>
+            <button class="col" type="button" ng-click="irAlRegistro()">Registrarse</button>
+        </div>
+    </form>
+    
+</body>
+</html>
+
+

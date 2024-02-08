@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="myApp">
+
+<head>
+    <link rel="stylesheet" href="Frontend/Public/CSS/perfil.css">
+    <title>Simulador préstamos - Calculadora</title>
+</head>
+
+<body ng-controller="PerfilController">
+
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+        <div class="container rounded bg-white  mb-5 w-100 h-100">
+            <div class="row">
+                <div class="col-md-3 border-right">
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg">
+                        <span class="font-weight-bold">{{ usuarioLogueado.nombre }}</span>
+                        <span class="text-black-50">{{ usuarioLogueado.email }}</span>
+                    </div>
+                </div>
+                <div class="col-md-8 border-right mt-5">
+                    <div class="">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h4 class="text-right">Ajustes de perfil</h4>
+                        </div>
+                        <div class="row mt-2 mb-3">
+                            <div class="col-md-6">
+                                <label class="labels fs-6 fw-semibold">Nombre</label>
+                                <input type="text" class="form-control" ng-model="usuarioLogueado.nombre">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="labels fs-6 fw-semibold">Apellido</label>
+                                <input type="text" class="form-control" ng-model="usuarioLogueado.apellido">
+                            </div>
+                        </div>
+                        <div class="row mt-3 mb-3">
+                            <div class="col-md-12">
+                                <label class="labels fs-6 fw-semibold">Usuario</label>
+                                <input type="text" class="form-control" ng-model="usuarioLogueado.usuario">
+                            </div>
+                        </div>
+                        <div class="row mt-3 mb-3">
+                            <div class="col-md-12">
+                                <label class="labels fs-6 fw-semibold">Correo electrónico</label>
+                                <input type="text" class="form-control" ng-model="usuarioLogueado.email">
+                            </div>
+                        </div>
+                        <div class="row mt-3 mb-3">
+                            <div class="col-md-12">
+                                <label class="labels fs-6 fw-semibold">Contraseña</label>
+                                <input type="password" class="form-control" ng-model="usuarioLogueado.contrasena">
+                            </div>
+                        </div>
+                        <div class="mt-5 mb-5 text-center">
+                            <button class="btn btn-primary profile-button mt-md-5" type="button" ng-click="actualizarDatos()">Guardar</button>
+                            <button class="btn btn-primary mt-md-5 ms-3" type="button" ng-click="eliminarCuenta()">Eliminar cuenta</button>
+
+                        </div>
+                        
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

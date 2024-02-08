@@ -1,0 +1,99 @@
+body {
+  background-color: #f1f2f6;;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+nav {
+  height: 3.8em;
+}
+
+footer {
+  overflow-x: hidden;
+}
+
+main.ng-scope {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 0 5em 0 ;
+}
+
+@media (max-width: 768px) {
+  main.ng-scope {
+    padding:0 0;
+
+  }
+}
+.btnFooter {
+  background-color: #ffffff !important;
+  width: 4rem !important;
+  height: 3rem !important;
+}
+.footerbrand{
+  padding: 10px;
+}
+.footercr{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  color: #2c2a29;
+  align-items: center;
+}
+.footerstyle{
+  color: white;
+  background-color: #2c2a29;
+}
+.container1 {
+  padding-right: 8% !important;
+} 
+/* ESTILOS DEL HEADER */
+.headerlogosize {
+  width: 20vw;
+  
+}
+
+.headerstyle {
+  background-color: #ffffff;
+  height: 120px;
+  width: 100vw;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 0px 13px 0px rgba(79, 79, 79, 0.522);
+}
+.card-title{
+  color: #2c2a29;
+}
+.containerheader {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.separator1 {
+  width: 40%;
+  float: left;
+}
+
+.separator2 {
+  width: 20%;
+  float: left;
+}
+
+.separator3 {
+  width: 40%;
+  float: left;
+}
+
+.iconoperfil {
+  float: right;
+}
+
+.botonhome{
+  background-color: #2c2a29 !important;
+}

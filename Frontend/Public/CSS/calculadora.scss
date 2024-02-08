@@ -1,0 +1,104 @@
+
+.calculatorForm,
+aside {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0px 13px 0px rgba(79, 79, 79, 0.522);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+aside {
+    background: rgba(255, 255, 255, 0.655);
+    height: 330px;
+    overflow-y: scroll;
+
+
+}
+
+.calculatorForm .card {
+    background-color: transparent;
+    border: none;
+}
+
+
+.btn_tipo_prestamo{
+    min-width: 2em;
+    max-width: 4em;
+    flex: 1;
+    border: 0;
+    border-radius: 0.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.sliderButton{
+    width: 1.3em;
+    height: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    border: 0;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {   
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  .btn_tipo_prestamo__active{
+    background-color: #0d6efd63 !important;
+  }
+
+  .table, .resultadosTotales{
+    width: 100%;
+  }
+
+
+
+  .registro{
+    background-color: #f2f2f2;
+  }
+
+  .data-registro{
+    width: fit-content;
+    height: fit-content;
+  
+  }
+
+  .data-registro:last-child{
+    padding: 0;
+    margin: 0;
+  }
+
+  .iconoBorrar{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+  }
+
+  .inputInteres{
+    width: 100px;
+  }
+  @media (min-width: 768px) {
+    
+    .table, .resultadosTotales{
+        width: 75%;
+    }
+}
