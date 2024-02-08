@@ -3,9 +3,9 @@
 namespace N00_Config;
 //TODO: Moficiar ruta de produccion
 
-define('DB_HOST', 'localhost');
-define ('DB_NAME','banca');
+define('DB_HOST', '192.168.1.11'); //localhost
+define ('DB_NAME','banca_definitiva'); //banca
 define ('DB_USER','root');
-define ('DB_PASS','');
+define ('DB_PASS','zornotza');
 
 ?>
