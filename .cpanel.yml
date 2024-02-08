@@ -1,0 +1,10 @@
+---
+deployment:
+    tasks:
+    - export DEPLOYPATH=/home/aw3gru8w/public_html/
+    - rm -Rf $DEPLOYPATH/*
+    - cp -Rf Backend $DEPLOYPATH
+    - cp -Rf Frontend $DEPLOYPATH
+    - cp -Rf DocuWeb $DEPLOYPATH
+    - cp -f .htaccess $DEPLOYPATH
+    - cp -f index.html $DEPLOYPATH
