@@ -1,5 +1,5 @@
 # DESPLIEGUE RETO 4
-<img src="img/1.PNG" width="400">
+<img src="https://github.com/osdomz/EthaziMEKA/blob/21cb832b155b829737ed883ce5b86612bb215937/img/1.png" width="400">
 
 
 ## INSTALACIÓN BÁSICA
