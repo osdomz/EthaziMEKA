@@ -19,7 +19,7 @@
 
 	en el segundo adaptador de red haremos la siguiente configuración
 
-	<img src="img/2.PNG" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/376a923cb22c4066553f97c6894299219015bf71/img/2.png" width="400">
 	
 	<img src="img/3.PNG" width="400">
 
