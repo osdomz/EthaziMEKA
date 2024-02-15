@@ -19,11 +19,7 @@
 
 	en el segundo adaptador de red haremos la siguiente configuración
 
-<<<<<<< HEAD
 	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/2.png" width="400">
-=======
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/376a923cb22c4066553f97c6894299219015bf71/img/2.png" width="400">
->>>>>>> origin/main
 	
 	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/3.png" width="400">
 
