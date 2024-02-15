@@ -1,5 +1,5 @@
 # DESPLIEGUE RETO 4
-<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/1.png" width="400">
+<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/1.png" width="60%">
 
 
 ## INSTALACIÓN BÁSICA
@@ -19,9 +19,9 @@
 
 	en el segundo adaptador de red haremos la siguiente configuración
 
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/2.png" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/2.png" width="60%">
 	
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/3.png" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/3.png" width="60%">
 
 - ### INSTALACIÓN DE OPENSSH
 
@@ -35,11 +35,11 @@
     
 	`nano etc/hosts`
 	
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/4.png" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/4.png" width="60%">
     
 	`nano etc/hostname`
     
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/5.png" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/5.png" width="60%">
 
 - ### CONEXIÓN POR SSH
 
@@ -80,15 +80,15 @@
 
 - Configuramos el .conf  
 
-    <img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/6.png" width="400">
+    <img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/6.png" width="60%">
 
 - Creamos la key de ssh(ssh keygen)
 
 	`ssh-keygen`
 
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/7.png" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/7.png" width="60%">
 
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/8.png" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/8.png" width="60%">
 
 - Creamos la carpeta inventory:
 
@@ -102,13 +102,13 @@
 
 - Comprobar conectividad con las maquinas de nuestra red
 
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/9.png" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/c7db4d2db98e85cfe4594f190b1da269aa63bf1b/img/9.PNG" width="60%">
 
 - Configuración de Playbook
 
 	`sudo nano instalar_servicios.yml`
 
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/10.png" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/10.png" width="60%">
 	
 	```yml
 	- name: Install Bind DNS software
@@ -233,7 +233,7 @@
 	};
 	```
 
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/13.png" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/c7db4d2db98e85cfe4594f190b1da269aa63bf1b/img/13.PNG" width="60%">
 
 - Ya que hemos señalado que la zona estará en la carpeta zonas debemos crearla 
 
@@ -250,7 +250,7 @@
 
 	`sudo nano /etc/bind/zones/nombre_de_dominio.com.zone`
 
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/15.png" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/c7db4d2db98e85cfe4594f190b1da269aa63bf1b/img/12.PNG" width="60%">
 
 	```bash
 	$TTL    604800
@@ -281,7 +281,7 @@
 
 - Reseteamos el servicio
 
-	<img src="https://github.com/osdomz/EthaziMEKA/blob/b71ef1a5662b63f77b755355918419c18aa96357/img/14.png" width="400">
+	<img src="https://github.com/osdomz/EthaziMEKA/blob/c7db4d2db98e85cfe4594f190b1da269aa63bf1b/img/14.PNG" width="60%">
 
 	`sudo service bind9 restart`
 	
